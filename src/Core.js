@@ -1,14 +1,11 @@
 import React from "react";
+import Ingredients from "./Ingredients/Ingredients";
 
 const Core = function () {
   return (
     <div id="core">
       <div id="rendu">Rendu Gobelet</div>
-      <ul id="ingredients">
-        <li id="gobelet">Gobelet</li>
-        <li id="tea">Tea</li>
-        <li id="tapioca">Tapioca</li>
-      </ul>
+      <Ingredients />
     </div>
   );
 };
