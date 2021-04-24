@@ -1,9 +1,19 @@
 body {
     background-color: #81a69b;
+    width: 100vw;
+    height: 100vh;
 }
 
-.mainContainer {
+.main-container {
     display: grid;
     grid-auto-rows: auto;
     grid-template-columns: 80% 20%;
+}
+
+#generator {
+    border: 5px solid black;
+}
+
+#core {
+    border: 5px solid red;
 }
