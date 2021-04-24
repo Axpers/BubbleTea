@@ -1,13 +1,9 @@
 import React from "react";
 import { render } from "react-dom";
+import App from "./App";
 
 const Test = function () {
-  return (
-    <div id="root">
-      <h3>Hello!</h3>
-      Rendered!
-    </div>
-  );
+  return <App />;
 };
 
 render(<Test />, document.getElementById("root"));
