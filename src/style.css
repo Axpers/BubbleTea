@@ -10,7 +10,7 @@ body {
     grid-template-columns: 80% 20%;
 }
 
-#generator {
+#sidebar {
     border: 5px solid black;
 }
 
