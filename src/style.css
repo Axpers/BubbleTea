@@ -26,20 +26,13 @@ body {
   border: 5px solid purple;
   list-style: none;
   margin: 50px;
-  display: grid;
-  grid-auto-rows: auto;
-  grid-template-columns: repeat(3, 33.33%);
+  display: flex;
 }
 
 li {
   border-right: 5px solid blue;
-  display: flex;
-  align-items: center;
-  align-content: center;
 }
 
-svg {
-  flex: auto;
-  width: auto;
-  height: 100%;
+#border {
+  transform: translate(33px, 5px);
 }
