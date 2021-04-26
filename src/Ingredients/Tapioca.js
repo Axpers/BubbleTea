@@ -3,10 +3,12 @@ import React from "react";
 const Tapioca = function () {
   return (
     <svg
-      width="200"
-      height="200"
       xmlns="http://www.w3.org/2000/svg"
-      id="bubble"
+      version="1.1"
+      x="0px"
+      y="0px"
+      viewBox="0 0 133.2 188.9"
+      enableBackground="new 0 0 133.2 188.9"
     >
       <path
         fill="#404162"

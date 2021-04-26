@@ -2,7 +2,14 @@ import React from "react";
 
 const Tea = function () {
   return (
-    <svg height="200" width="200" xmlns="http://www.w3.org/2000/svg" id="tea">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+      x="0px"
+      y="0px"
+      viewBox="0 0 133.2 188.9"
+      enableBackground="new 0 0 133.2 188.9"
+    >
       <path
         opacity="0.52"
         fill="#FFB29E"

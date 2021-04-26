@@ -4,9 +4,11 @@ const Gobelet = function () {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="200"
-      width="200"
-      id="border"
+      version="1.1"
+      x="0px"
+      y="0px"
+      viewBox="0 0 133.2 188.9"
+      enableBackground="new 0 0 133.2 188.9"
     >
       <path
         fill="none"
