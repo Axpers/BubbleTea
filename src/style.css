@@ -29,10 +29,10 @@ body {
   display: flex;
 }
 
-li {
+li:not(:last-child) {
   border-right: 5px solid blue;
 }
 
 #border {
-  transform: translate(33px, 5px);
+  transform-origin: center center;
 }
