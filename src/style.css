@@ -6,7 +6,7 @@ body {
 
 .main-container {
   display: grid;
-  grid-auto-rows: auto;
+  grid-auto-rows: 100%;
   grid-template-columns: 80% 20%;
 }
 
@@ -16,27 +16,30 @@ body {
 
 #core {
   border: 5px solid red;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
 
 #ingredients {
   border: 5px solid purple;
   list-style: none;
-  display: flex;
-  justify-content: space-evenly;
   margin: 50px;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(3, 33.33%);
 }
 
 li {
   border-right: 5px solid blue;
-  flex: 33%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
-li > svg {
+svg {
+  flex: auto;
+  width: auto;
   height: 100%;
-  width: 35%;
 }
