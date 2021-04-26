@@ -1,19 +1,19 @@
 body {
-    background-color: #81a69b;
-    width: 100vw;
-    height: 100vh;
+  background-color: #81a69b;
+  width: 100vw;
+  height: 100vh;
 }
 
 .main-container {
-    display: grid;
-    grid-auto-rows: auto;
-    grid-template-columns: 80% 20%;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 80% 20%;
 }
 
 #sidebar {
-    border: 5px solid black;
+  border: 5px solid black;
 }
 
 #core {
-    border: 5px solid red;
+  border: 5px solid red;
 }
