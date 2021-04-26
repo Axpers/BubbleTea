@@ -2,7 +2,7 @@ import React from "react";
 
 const Gobelet = function () {
   return (
-    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <svg xmlns="http://www.w3.org/2000/svg">
       <g id="border">
         <path
           fill="none"
