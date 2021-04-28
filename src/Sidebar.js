@@ -3,7 +3,10 @@ import React from "react";
 const Sidebar = function () {
   return (
     <div id="sidebar">
-      <h1 id="titre-generator">Bubble Tea Generator</h1>
+      <div id="titre-generator">
+        <h1>Bubble Tea</h1>
+        <h1>Generator</h1>
+      </div>
       <ul id="ingredient-generator">
         <li>Nom du Bubble Tea</li>
         <li>Gobelet</li>
