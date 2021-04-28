@@ -2,8 +2,9 @@ import React from "react";
 
 let NomBubbleTea = function () {
   return (
-    <div>
-      <p>NomBubbleTea</p>
+    <div className="conteneurLabelInput">
+      <label htmlFor="nameBubbleTea">Nom BubbleTea</label>
+      <input type="text" name="nameBubbleTea" />
     </div>
   );
 };

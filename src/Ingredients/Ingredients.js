@@ -6,11 +6,11 @@ import Tapioca from "./Tapioca";
 const Ingredients = function () {
   return (
     <ul id="ingredients">
-      <li id="gobelet">
-        <Gobelet />
-      </li>
       <li id="tea">
         <Tea />
+      </li>
+      <li id="gobelet">
+        <Gobelet />
       </li>
       <li id="tapioca">
         <Tapioca />
