@@ -1,6 +1,6 @@
 import React from "react";
 
-let TailleRendu = function () {
+const TailleRendu = function () {
   return (
     <div>
       <p>TailleRendu</p>

@@ -1,6 +1,6 @@
 import React from "react";
 
-let NomBubbleTea = function () {
+const NomBubbleTea = function () {
   return (
     <div className="conteneurLabelInput">
       <label htmlFor="nameBubbleTea">Nom BubbleTea</label>

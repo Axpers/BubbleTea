@@ -1,6 +1,6 @@
 import React from "react";
 
-let CouleurTea = function () {
+const CouleurTea = function () {
   return (
     <div>
       <p>CouleurTea</p>
