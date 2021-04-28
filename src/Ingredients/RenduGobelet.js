@@ -5,11 +5,14 @@ import Tea from "./Tea";
 
 const RenduGobelet = function () {
   return (
-    <svg id="rendu">
-      <Gobelet />
-      <Tea />
-      <Tapioca />
-    </svg>
+    <div id="rendu">
+      <svg id="svg-rendu">
+        <Gobelet />
+        <Tea />
+        <Tapioca />
+      </svg>
+      <h1 id="titre-rendu">Rendu Gobelet</h1>
+    </div>
   );
 };
 
