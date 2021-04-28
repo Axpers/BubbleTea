@@ -57,7 +57,7 @@ li:not(:last-child) {
   border-right: 5px solid blue;
 }
 
-li {
+#ingredients > li {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -74,39 +74,37 @@ svg {
   box-sizing: border-box;
   border: 5px solid red;
   display: flex;
-  align-items: center;
   flex-flow: column;
-  justify-content: space-evenly;
+  align-items: center;
 }
 
 #titre-generator {
   box-sizing: border-box;
-  border: 1px solid blue;
-  font-size: 2em;
-  width: 90%;
+  border: 3px solid blue;
+  width: 100%;
   height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -100px;
 }
 
 #ingredient-generator {
   box-sizing: border-box;
-  border: 1px solid blue;
+  border: 3px solid blue;
   width: 90%;
   height: 50%;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
-  flex-flow: column;
 }
 
-#ingredient-generator * {
+#ingredient-generator > li {
   box-sizing: border-box;
-  border: 1px solid black;
-  flex: auto;
+  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  width: 100%;
 }
