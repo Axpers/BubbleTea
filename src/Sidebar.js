@@ -1,4 +1,9 @@
 import React from "react";
+import NomBubbleTea from "./Composants Generator/NomBubbleTea";
+import CouleurGobelet from "./Composants Generator/CouleurGobelet";
+import CouleurTea from "./Composants Generator/CouleurTea";
+import CouleurTapioca from "./Composants Generator/CouleurTapioca";
+import TailleRendu from "./Composants Generator/TailleRendu";
 
 const Sidebar = function () {
   return (
@@ -7,13 +12,13 @@ const Sidebar = function () {
         <h1>Bubble Tea</h1>
         <h1>Generator</h1>
       </div>
-      <ul id="ingredient-generator">
-        <li>Nom du Bubble Tea</li>
-        <li>Gobelet</li>
-        <li>Tea</li>
-        <li>Tapioca</li>
-        <li>Taille</li>
-      </ul>
+      <form id="composants-generator">
+        <NomBubbleTea />
+        <CouleurGobelet />
+        <CouleurTea />
+        <CouleurTapioca />
+        <TailleRendu />
+      </form>
     </div>
   );
 };

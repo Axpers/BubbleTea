@@ -91,7 +91,7 @@ svg {
   margin-top: 10px;
 }
 
-#ingredient-generator {
+#composants-generator {
   box-sizing: border-box;
   border: 3px solid blue;
   width: 90%;
@@ -103,7 +103,7 @@ svg {
   margin-top: 100px;
 }
 
-#ingredient-generator > li {
+#composants-generator > div {
   box-sizing: border-box;
   border: 2px solid red;
   display: flex;
