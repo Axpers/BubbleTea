@@ -6,7 +6,7 @@ import BorderColorBTContext from "./ContextVariables/BorderColorBTContext";
 import TeaColorContext from "./ContextVariables/TeaColorContext";
 
 const App = function () {
-  const nameBT = useState("Nom du Goblet");
+  const nameBT = useState("Nom BubbleTea");
   const borderColorBT = useState("#000000");
   const teaColor = useState("#000000");
   return (
