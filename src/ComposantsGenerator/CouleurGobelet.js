@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
+import BorderColorBTContext from "../ContextVariables/BorderColorBTContext";
 
-export default function CouleurGobelet() {
-  const [colorBT, setColorBT] = useState("#000000");
+const CouleurGobelet = function () {
+  const [colorBorderBT, setColorBorderBT] = useContext(BorderColorBTContext);
 
   return (
     <div>
@@ -10,9 +11,11 @@ export default function CouleurGobelet() {
         type="color"
         name="colorBubbleTea"
         id="colorBubbleTea"
-        value={colorBT}
-        onChange={(e) => setColorBT(e.target.value)}
+        value={colorBorderBT}
+        onChange={(e) => setColorBorderBT(e.target.value)}
       />
     </div>
   );
-}
+};
+
+export default CouleurGobelet;

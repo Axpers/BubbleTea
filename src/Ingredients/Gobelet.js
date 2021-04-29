@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import BorderColorBTContext from "../ContextVariables/BorderColorBTContext";
 
 const Gobelet = function () {
+  const colorBorderBT = useContext(BorderColorBTContext);
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +26,7 @@ const Gobelet = function () {
       <g className="bordureGobelet">
         <path
           fill="none"
-          stroke="#FE8261"
+          stroke={colorBorderBT[0]}
           strokeWidth="2.1561"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -33,7 +36,7 @@ const Gobelet = function () {
 
         <path
           fill="none"
-          stroke="#FE8261"
+          stroke={colorBorderBT[0]}
           strokeWidth="2.1561"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -43,7 +46,7 @@ const Gobelet = function () {
 
         <path
           fill="none"
-          stroke="#FE8261"
+          stroke={colorBorderBT[0]}
           strokeWidth="2.1561"
           strokeLinecap="round"
           strokeLinejoin="round"

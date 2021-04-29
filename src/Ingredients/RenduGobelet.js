@@ -6,6 +6,7 @@ import NameBTContext from "../ContextVariables/NameBTContext";
 
 const RenduGobelet = function () {
   const nameBT = useContext(NameBTContext);
+
   return (
     <div id="rendu">
       <svg id="svg-rendu">
