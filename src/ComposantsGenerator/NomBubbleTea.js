@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { NameBTContext } from "../ContextVariables/NameBTContext";
+import NameBTContext from "../ContextVariables/NameBTContext";
 
 const NomBubbleTea = function () {
   const [nameBT, setNameBT] = useContext(NameBTContext);

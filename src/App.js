@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Core from "./Core";
 import Sidebar from "./Sidebar";
-import { NameBTContext } from "./ContextVariables/NameBTContext";
+import NameBTContext from "./ContextVariables/NameBTContext";
 
 const App = function () {
   const nameBT = useState("Nom du Goblet");
