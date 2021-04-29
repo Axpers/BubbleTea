@@ -122,3 +122,7 @@ label {
   justify-content: center;
   align-items: center;
 }
+
+.teaSpecialColor {
+  filter: brightness(90%);
+}

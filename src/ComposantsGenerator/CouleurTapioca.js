@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
+import TapiocaColorContext from "../ContextVariables/TapiocaColorContext";
 
 const CouleurTapioca = function () {
+  const [tapiocaColor, setTapiocaColor] = useContext(TapiocaColorContext);
+
   return (
     <div>
-      <p>CouleurTapioca</p>
+      <label htmlFor="tapiocaColor">Couleur Tapioca</label>
+      <input
+        type="color"
+        name="tapiocaColor"
+        id="tapiocaColor"
+        value={tapiocaColor}
+        onChange={(e) => setTapiocaColor(e.target.value)}
+      />
     </div>
   );
 };
