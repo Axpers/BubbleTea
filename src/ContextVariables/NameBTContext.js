@@ -1,4 +1,7 @@
 import React, { createContext } from "react";
 
 const NameBTContext = createContext(["NameBT", () => {}]);
-export default NameBTContext;
+
+const ColorBTContext = createContext(["#000000", () => {}]);
+
+export { NameBTContext, ColorBTContext };

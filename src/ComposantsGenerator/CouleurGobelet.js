@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const CouleurGobelet = function () {
+export default function CouleurGobelet() {
   const [colorBT, setColorBT] = useState("#000000");
 
   return (
@@ -15,6 +15,4 @@ const CouleurGobelet = function () {
       />
     </div>
   );
-};
-
-export default CouleurGobelet;
+}

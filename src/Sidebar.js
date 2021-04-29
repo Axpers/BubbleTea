@@ -1,6 +1,6 @@
 import React from "react";
-import ComposantsGenerator from "./Composants Generator/ComposantsGenerator";
-import TitreGenerator from "./Composants Generator/TitreGenerator";
+import ComposantsGenerator from "./ComposantsGenerator/ComposantsGenerator";
+import TitreGenerator from "./ComposantsGenerator/TitreGenerator";
 
 const Sidebar = function () {
   return (

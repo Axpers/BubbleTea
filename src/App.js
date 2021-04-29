@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import Core from "./Core";
 import Sidebar from "./Sidebar";
-import ContextVariables from "./ContextVariables";
+import { NameBTContext } from "./ContextVariables/NameBTContext";
 
 const App = function () {
   const nameBT = useState("Nom du Goblet");
   return (
     <div id="root" className="main-container">
-      <ContextVariables.Provider value={nameBT}>
+      <NameBTContext.Provider value={nameBT}>
         <Core />
         <Sidebar />
-      </ContextVariables.Provider>
+      </NameBTContext.Provider>
     </div>
   );
 };
