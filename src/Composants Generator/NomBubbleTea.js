@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { createContext, useState } from "react";
 
 const NomBubbleTea = function () {
-  const [nameBT, setNameBT] = useState("Test");
+  const [nameBT, setNameBT] = useState("NomGobelet");
+
   return (
-    <div className="conteneurLabelInput">
+    <div>
       <label htmlFor="nameBubbleTea">NOM</label>
       <input
         type="text"
