@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const CouleurGobelet = function () {
-  const [colorBT, setColorBT] = useState("red");
+  const [colorBT, setColorBT] = useState("#000000");
 
   return (
     <div>
