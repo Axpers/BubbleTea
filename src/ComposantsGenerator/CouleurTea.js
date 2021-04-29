@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
+import TeaColorContext from "../ContextVariables/TeaColorContext";
 
-const CouleurTea = function () {
+const CouleurGobelet = function () {
+  const [teaColor, setTeaColor] = useContext(TeaColorContext);
+
   return (
     <div>
-      <p>CouleurTea</p>
+      <label htmlFor="teaColor">Couleur Thé</label>
+      <input
+        type="color"
+        name="teaColor"
+        id="teaColor"
+        value={teaColor}
+        onChange={(e) => setTeaColor(e.target.value)}
+      />
     </div>
   );
 };
 
-export default CouleurTea;
+export default CouleurGobelet;
