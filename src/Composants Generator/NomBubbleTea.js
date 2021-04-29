@@ -1,7 +1,8 @@
-import React, { createContext, useState } from "react";
+import React, { useContext } from "react";
+import NameBTContext from "../ContextVariables";
 
 const NomBubbleTea = function () {
-  const [nameBT, setNameBT] = useState("NomGobelet");
+  const [nameBT, setNameBT] = useContext(NameBTContext);
 
   return (
     <div>

@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import Core from "./Core";
 import Sidebar from "./Sidebar";
-import ThemeContext from "./Composants Generator/Atest";
+import ContextVariables from "./ContextVariables";
 
 const App = function () {
-  const theme = useState("darkblue");
+  const nameBT = useState("Nom du Goblet");
   return (
     <div id="root" className="main-container">
-      <ThemeContext.Provider value={theme}>
+      <ContextVariables.Provider value={nameBT}>
         <Core />
         <Sidebar />
-      </ThemeContext.Provider>
+      </ContextVariables.Provider>
     </div>
   );
 };

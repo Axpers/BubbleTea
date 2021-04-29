@@ -3,7 +3,7 @@ import React from "react";
 const CouleurTapioca = function () {
   return (
     <div>
-      <p>CouleurGobelet</p>
+      <p>CouleurTapioca</p>
     </div>
   );
 };

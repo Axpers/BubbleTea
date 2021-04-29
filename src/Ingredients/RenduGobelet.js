@@ -2,10 +2,10 @@ import React, { useState, useContext } from "react";
 import Gobelet from "./Gobelet";
 import Tapioca from "./Tapioca";
 import Tea from "./Tea";
-import ThemeContext from "../Composants Generator/Atest";
+import NameBTContext from "../ContextVariables";
 
 const RenduGobelet = function () {
-  const test = useContext(ThemeContext);
+  const nameBT = useContext(NameBTContext);
   return (
     <div id="rendu">
       <svg id="svg-rendu">
@@ -13,7 +13,7 @@ const RenduGobelet = function () {
         <Tea />
         <Tapioca />
       </svg>
-      <h1 id="titre-rendu">{test}</h1>
+      <h1 id="titre-rendu">{nameBT}</h1>
     </div>
   );
 };
