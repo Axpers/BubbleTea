@@ -3,7 +3,6 @@ import TeaColorContext from "../ContextVariables/TeaColorContext";
 
 const Tea = function () {
   const teaColor = useContext(TeaColorContext);
-  console.log(teaColor[0]);
 
   return (
     <svg

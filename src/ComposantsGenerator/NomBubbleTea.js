@@ -6,7 +6,7 @@ const NomBubbleTea = function () {
 
   return (
     <div>
-      <label htmlFor="nameBubbleTea">NOM</label>
+      <label htmlFor="nameBubbleTea">Nom</label>
       <input
         type="text"
         name="nameBubbleTea"

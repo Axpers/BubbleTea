@@ -3,12 +3,13 @@ import Gobelet from "./Gobelet";
 import Tapioca from "./Tapioca";
 import Tea from "./Tea";
 import NameBTContext from "../ContextVariables/NameBTContext";
+import ScaleBTContext from "../ContextVariables/ScaleBTContext";
 
 const RenduGobelet = function () {
   const nameBT = useContext(NameBTContext);
-  const test = "0.6";
+  const scaleBT = useContext(ScaleBTContext);
   const svgStyle = {
-    transform: `scale(${test})`,
+    transform: `scale(${scaleBT[0]})`,
   };
 
   return (
