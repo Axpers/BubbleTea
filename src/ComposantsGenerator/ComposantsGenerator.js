@@ -4,6 +4,7 @@ import CouleurGobelet from "./CouleurGobelet";
 import CouleurTea from "./CouleurTea";
 import CouleurTapioca from "./CouleurTapioca";
 import TailleRendu from "./TailleRendu";
+import SetCouleurs from "./SetCouleurs";
 
 const ComposantsGenerator = function () {
   return (
@@ -13,6 +14,7 @@ const ComposantsGenerator = function () {
       <CouleurTea />
       <CouleurTapioca />
       <TailleRendu />
+      <SetCouleurs />
     </form>
   );
 };
