@@ -9,7 +9,7 @@ import TapiocaColorContext from "./ContextVariables/TapiocaColorContext";
 const App = function () {
   const nameBT = useState("Nom BubbleTea");
   const borderColorBT = useState("#FE8261");
-  const teaColor = useState("#FFB29E");
+  const teaColor = useState("#FE8261");
   const tapiocaColor = useState("#404162");
 
   return (
