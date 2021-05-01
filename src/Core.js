@@ -5,8 +5,8 @@ import RenduGobelet from "./Ingredients/RenduGobelet";
 const Core = function () {
   return (
     <div id="core">
-      <RenduGobelet />
       <Ingredients />
+      <RenduGobelet />
     </div>
   );
 };

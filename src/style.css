@@ -14,17 +14,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column;
   height: 100vh;
   box-sizing: border-box;
   border: 10px solid #ababba;
 }
 
 #rendu {
-  margin: 10px;
   display: flex;
-  height: 70%;
-  width: 100%;
+  height: 100%;
+  width: 70%;
   justify-content: center;
   align-items: center;
   flex-flow: column;
@@ -43,34 +41,37 @@ body {
   align-items: center;
   font-size: 3em;
   color: #ababba;
-  font-family: Garamond;
+  font-family: "Roboto Thin";
+  font-weight: bold;
 }
 
 #ingredients {
   list-style: none;
   display: flex;
+  flex-flow: column;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 30%;
+  width: 30%;
+  height: 100%;
 }
 
 li:not(:last-child) {
   box-sizing: border-box;
-  border-right: 10px solid #ababba;
+  border-bottom: 10px solid #ababba;
 }
 
 #ingredients > li {
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 100%;
+  height: 34%;
   box-sizing: border-box;
-  border-top: 10px solid #ababba;
+  border-right: 10px solid #ababba;
 }
 
 svg {
   margin: 10px;
+  width: 100%;
 }
 
 #sidebar {
@@ -91,7 +92,7 @@ svg {
   margin-top: 10px;
   color: #ffffff;
   font-family: Arial;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 #composants-generator {
