@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
 
-const ScaleBTContext = createContext(["0.9", () => {}]);
+const ScaleBTContext = createContext();
 
 export default ScaleBTContext;

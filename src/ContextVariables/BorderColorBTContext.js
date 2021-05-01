@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
 
-const BorderColorBTContext = createContext(["#000000", () => {}]);
+const BorderColorBTContext = createContext();
 
 export default BorderColorBTContext;

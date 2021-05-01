@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
 
-const TapiocaColorContext = createContext(["#000000", () => {}]);
+const TapiocaColorContext = createContext();
 
 export default TapiocaColorContext;

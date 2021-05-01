@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
 
-const TeaColorContext = createContext(["#000000", () => {}]);
+const TeaColorContext = createContext();
 
 export default TeaColorContext;
