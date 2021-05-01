@@ -3,7 +3,7 @@ import TapiocaColorContext from "../ContextVariables/TapiocaColorContext";
 import TeaColorContext from "../ContextVariables/TeaColorContext";
 
 const SetCouleurs = function () {
-  let [valeurSet] = useState("clair");
+  let [valeurSet, changementCouleurs] = useState("clair");
   let couleurTapioca = useContext(TapiocaColorContext);
   let couleurTea = useContext(TeaColorContext);
 
