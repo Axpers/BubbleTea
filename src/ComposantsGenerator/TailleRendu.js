@@ -6,7 +6,7 @@ const TailleRendu = function () {
 
   return (
     <div>
-      <label htmlFor="scaleBT">Taille</label>
+      <label htmlFor="scaleBT">TAILLE</label>
       <input
         type="range"
         name="scaleBT"

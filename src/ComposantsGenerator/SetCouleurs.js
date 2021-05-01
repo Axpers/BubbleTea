@@ -3,7 +3,7 @@ import TapiocaColorContext from "../ContextVariables/TapiocaColorContext";
 import TeaColorContext from "../ContextVariables/TeaColorContext";
 
 const SetCouleurs = function () {
-  let valeurSet = useState("Thème par défaut");
+  let [valeurSet] = useState("clair");
   let couleurTapioca = useContext(TapiocaColorContext);
   let couleurTea = useContext(TeaColorContext);
 
@@ -21,16 +21,15 @@ const SetCouleurs = function () {
 
   return (
     <div>
-      <label htmlFor="setCouleur">Set Couleurs</label>
+      <label htmlFor="setCouleur">SETS</label>
       <select
-        multiple={true}
         name="setCouleur"
         id="setCouleur"
         value={valeurSet}
         onChange={(element) => changementCouleurs(element.target.value)}
       >
-        <option value="clair">Thème Clair</option>
-        <option value="sombre">Thème Sombre</option>
+        <option value="clair">Thème clair</option>
+        <option value="sombre">Thème sombre</option>
       </select>
     </div>
   );

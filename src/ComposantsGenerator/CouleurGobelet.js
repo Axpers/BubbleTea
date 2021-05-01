@@ -6,7 +6,7 @@ const CouleurGobelet = function () {
 
   return (
     <div>
-      <label htmlFor="colorBubbleTea">Couleur Bordure</label>
+      <label htmlFor="colorBubbleTea">GOBELET</label>
       <input
         type="color"
         name="colorBubbleTea"

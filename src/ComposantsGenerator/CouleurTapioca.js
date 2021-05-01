@@ -6,7 +6,7 @@ const CouleurTapioca = function () {
 
   return (
     <div>
-      <label htmlFor="tapiocaColor">Couleur Tapioca</label>
+      <label htmlFor="tapiocaColor">TAPIOCA</label>
       <input
         type="color"
         name="tapiocaColor"
