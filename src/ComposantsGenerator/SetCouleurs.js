@@ -1,11 +1,12 @@
+/*
 import React, { useContext, useState } from "react";
 import TapiocaColorContext from "../ContextVariables/TapiocaColorContext";
 import TeaColorContext from "../ContextVariables/TeaColorContext";
 
 const SetCouleurs = function () {
-  let valeurSet = useState("clair");
-  let couleurTapioca = useContext(TapiocaColorContext);
-  let couleurTea = useContext(TeaColorContext);
+  let [valeurSet, changementCouleurs] = useState("clair");
+  let [couleurTapioca, changementCouleurs] = useContext(TapiocaColorContext);
+  let [couleurTea, changementCouleurs] = useContext(TeaColorContext);
 
   function changementCouleurs(element) {
     if (element === "clair") {
@@ -36,3 +37,5 @@ const SetCouleurs = function () {
 };
 
 export default SetCouleurs;
+
+ */

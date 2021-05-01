@@ -15,7 +15,6 @@ const ComposantsGenerator = function () {
       <CouleurTea />
       <CouleurTapioca />
       <TailleRendu />
-      <SetCouleurs />
       <FontRendu />
     </form>
   );
