@@ -14,12 +14,12 @@ const RenduGobelet = function () {
 
   return (
     <div id="rendu">
+      <h1 id="titre-rendu">{nameBT}</h1>
       <svg id="svg-rendu" style={svgStyle}>
         <Gobelet />
         <Tea />
         <Tapioca />
       </svg>
-      <h1 id="titre-rendu">{nameBT}</h1>
     </div>
   );
 };

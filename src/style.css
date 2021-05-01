@@ -22,7 +22,7 @@ body {
 #rendu {
   display: flex;
   height: 100%;
-  width: 70%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   flex-flow: column;
@@ -34,13 +34,13 @@ body {
 }
 
 #titre-rendu {
-  height: 20%;
-  width: 50%;
+  height: 15%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3em;
-  color: #ababba;
+  color: #65657b;
   font-family: "Roboto Thin";
   font-weight: bold;
 }
@@ -71,7 +71,6 @@ li:not(:last-child) {
 
 svg {
   margin: 10px;
-  width: 100%;
 }
 
 #sidebar {
