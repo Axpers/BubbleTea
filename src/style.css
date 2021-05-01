@@ -16,7 +16,7 @@ body {
   align-items: center;
   height: 100vh;
   box-sizing: border-box;
-  border: 10px solid #ababba;
+  border: 10px solid #65657b;
 }
 
 #rendu {
@@ -57,7 +57,7 @@ body {
 
 li:not(:last-child) {
   box-sizing: border-box;
-  border-bottom: 10px solid #ababba;
+  border-bottom: 10px solid #65657b;
 }
 
 #ingredients > li {
@@ -66,7 +66,7 @@ li:not(:last-child) {
   justify-content: center;
   height: 34%;
   box-sizing: border-box;
-  border-right: 10px solid #ababba;
+  border-right: 10px solid #65657b;
 }
 
 svg {
@@ -77,7 +77,7 @@ svg {
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-color: #ababba;
+  background-color: #65657b;
 }
 
 #titre-generator {
