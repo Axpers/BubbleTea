@@ -4,7 +4,6 @@ import CouleurGobelet from "./CouleurGobelet";
 import CouleurTea from "./CouleurTea";
 import CouleurTapioca from "./CouleurTapioca";
 import TailleRendu from "./TailleRendu";
-import SetCouleurs from "./SetCouleurs";
 import FontRendu from "./FontRendu";
 
 const ComposantsGenerator = function () {
