@@ -39,10 +39,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3em;
   color: #65657b;
-  font-family: "Roboto Thin";
-  font-weight: bold;
+  font-size: 3em;
 }
 
 #ingredients {
