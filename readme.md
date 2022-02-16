@@ -1,4 +1,4 @@
-# BubbleTea
+# Bubble tea generator
 
 ### Installation  :
 `npm i`
